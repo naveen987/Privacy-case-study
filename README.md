@@ -19,5 +19,5 @@ PINECONE_API_ENV = "your_pinecone_environment_here"
 ```
 
 #### Step 3: Download and Set Up the Model
-Download the Llama 2 Model llama-2-13b-chat.ggmlv3.q4_0.bin from [Hugging Face](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML) and place it in the model directory.
+Download the Llama 2 Model llama-2-13b-chat.ggmlv3.q4_0.bin from [Hugging Face](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/blob/main/llama-2-13b-chat.ggmlv3.q4_0.bin) and place it in the model directory.
 
