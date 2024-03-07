@@ -90,3 +90,41 @@ SeverityWarning
 Status Acknowledged
 DESCRIPTION
 Code line Keep3rV1Oracle.sol#L638 may return an exception because  observations[pair]"
+What are the most common security vulnerabilities identified across the smart contracts?,"According to the scan results, the most common security vulnerabilities identified across the smart contracts are:
+
+1. Reentrancy
+2. Ownership Takeover
+3. Timestamp Dependence
+4. Gas Limit and Loops
+5. Transaction -Ordering Dependence
+6. Unchecked external call
+7. Unchecked math
+8. Unsafe type inference.","www.hacken.io  
+We have scanned this smart contract for commonly known and 
+more specific vulnerabilities. Here are some of the commonly 
+known vulnerabilities that are considered:  
+Category  Check Item  
+Code review  ▪ Reentrancy  
+▪ Ownership Takeover  
+▪ Timestamp Dependence  
+▪ Gas Limit and Loops  
+▪ Transaction -Ordering Dependence  
+▪ Style guide violation  
+▪ EIP standards violation  
+▪ Unchecked external call  
+▪ Unchecked math  
+▪ Unsafe type inference","www.hacken.io  
+We have scanned this smart contract for commonly known and 
+more specific vulnerabilities. Here are some of the commonly 
+known vulnerabilities that are considered:  
+Category  Check Item  
+Code review  ▪ Reentrancy  
+▪ Ownership Takeover  
+▪ Timestamp Dependence  
+▪ Gas Limit and Loops  
+▪ Transaction -Ordering Dependence  
+▪ Style guide violation  
+▪ EIP standards violation  
+▪ Unchecked external call  
+▪ Unchecked math  
+▪ Unsafe type inference"
