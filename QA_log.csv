@@ -1,0 +1,92 @@
+Question,Answer,Chunk 1,Chunk 2
+"What common compliance issues are identified in the dataset, and how frequently do they occur?","The report identifies a minor BEP20 compliance issue, which is not uncommon, as it occurs frequently.","that, we examine a few identified issues of varying severities that need to be brought up and paid
+more attention to. (The findings are categorized in the above table.) Additional information can be
+found in the next subsection, and the detailed discussions are in Section 4.
+8/16 PeckShield Audit Report #: 2021-283Public
+2.2 Key Findings
+Overall, a minor BEP20 compliance issue was found and our detailed checklist can be found in","far, we have identiﬁed a list of potential issues: some of them involve subtle corner cases that might
+not be previously thought of, while others refer to unusual interactions among multiple contracts.
+For each uncovered issue, we have therefore developed test cases for reasoning, reproduction, and/or
+veriﬁcation. After further analysis and internal discussion, we determined a few issues of varying"
+tell me about audit risk,"There is no information available about audit risk in this context.
+
+The goal of this project is to provide a basic understanding of chatbots and to practice creating one using a popular chatbot framework (Dialogflow). ","final audit.
+Disclaimer:source/tokens/contracts/
+Total Issues9 (7 Resolved)High Risk Issues
+1 (1 Resolved)Medium Risk Issues
+2 (2 Resolved)Low Risk Issues
+4 (3 Resolved)Informational Risk Issues
+2 (1 Resolved)Undetermined Risk Issues
+0 (0 Resolved)
+High Risk
+The issue puts a large number of users’ sensitive information
+at risk, or is reasonably likely to
+lead to catastrophic impact for
+client’s reputation or serious
+financial implications for client
+and users.
+Medium Risk","12Conclusion 
+We performed the procedures as laid out in the scope of the audit and 
+there were 2 ﬁndings, 1 medium and 1 low. The medium risk issues do 
+not pose a security risk as they are best practice issues that is why the 
+overall risk level is low."
+tell me about regulations,"
+There are no regulations in this context. The license only restricts circumvention of technological measures to the extent that it is effected by exercising rights under this license with respect to the covered work, and disclaims any intention to limit operation or modification of the work as a means of enforcing against the work's similar laws prohibiting or restricting circumvention of such measures.","similar laws prohibiting or restricting circumvention of such
+measures.
+
+  When you convey a covered work, you waive any legal power to forbid
+circumvention of technological measures to the extent such circumvention
+is effected by exercising rights under this License with respect to
+the covered work, and you disclaim any intention to limit operation or
+modification of the work as a means of enforcing, against the work's","similar laws prohibiting or restricting circumvention of such
+measures.
+
+  When you convey a covered work, you waive any legal power to forbid
+circumvention of technological measures to the extent such circumvention
+is effected by exercising rights under this License with respect to
+the covered work, and you disclaim any intention to limit operation or
+modification of the work as a means of enforcing, against the work's"
+what happens if i break regulation,You are automatically terminated.,"modify it is void, and will automatically terminate your rights under
+this License (including any patent licenses granted under the third
+paragraph of section 11).
+
+  However, if you cease all violation of this License, then your
+license from a particular copyright holder is reinstated (a)
+provisionally, unless and until the copyright holder explicitly and
+finally terminates your license, and (b) permanently, if the copyright","modify it is void, and will automatically terminate your rights under
+this License (including any patent licenses granted under the third
+paragraph of section 11).
+
+  However, if you cease all violation of this License, then your
+license from a particular copyright holder is reinstated (a)
+provisionally, unless and until the copyright holder explicitly and
+finally terminates your license, and (b) permanently, if the copyright"
+tell me about SeverityWarning," SeverityWarning is a type of warning that can be ignored for now but should be addressed at some point in the future. These warnings indicate minor issues or suggestions for improvement, such as cosmetic errors or documentation issues. The impact is low to none.","or ar e jus t warnings that can remain unﬁxed for now. 
+It would be better to ﬁx these issue s at some point in 
+the future.
+These ar e severity issue s that indicate an 
+impr ovement request, a general question, a cosmetic 
+or docum entation error, or a request for information. 
+There is low-to-no impact.
+Number of issues per se verity
+OpenType High
+Closed AcknowledgedLow
+0 0
+10
+400 0
+10","SeverityWarning
+Status Acknowledged
+DESCRIPTION
+Below there will be a case when the code does not process the result of calling
+ approve .
+Keep3rV1Oracle.sol#L819
+ approve  method may return  false .
+RECOMMENDATION
+Check the return value of the function.
+1 1WRN-7 Potential  Out of range  error
+File Keep3rV1Oracle.sol
+ 
+SeverityWarning
+Status Acknowledged
+DESCRIPTION
+Code line Keep3rV1Oracle.sol#L638 may return an exception because  observations[pair]"
